@@ -1,4 +1,5 @@
 # Copyright (c) Persistent Security Industries 2025
+# https://www.persistent-security.net
 # This program is licensed under the GNU General Public License (GPL).
 # See the LICENSE file for more details.
 
