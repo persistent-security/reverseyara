@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reverseyara"
+version = "0.2alpha"
+description = "A tool for reversing YARA signatures."
+authors = [
+    { name = "Persistent Security Industries", email = "contact@example.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "plyara",
+    "rich"
+]
