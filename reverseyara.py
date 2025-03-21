@@ -194,6 +194,8 @@ def process_byte_string(value: str) -> bytes:
 def process_regex_string(value: str) -> bytes:
     """Process a YARA regex string into its binary representation."""
     value = value.strip('/^$')
+    import warnings # dirty hack..
+    warnings.simplefilter("ignore")
     value = bytes(value, 'utf-8').decode('unicode_escape')
     value = re.sub(r'\\x([0-9a-fA-F]{2})', lambda m: chr(int(m.group(1), 16)), value)
     return bytes(value, 'utf-8')
