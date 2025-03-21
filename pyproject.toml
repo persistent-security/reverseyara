@@ -7,7 +7,7 @@ name = "reverseyara"
 version = "0.2alpha"
 description = "A tool for reversing YARA signatures."
 authors = [
-    { name = "Persistent Security Industries", email = "contact@example.com" }
+    { name = "Persistent Security Industries", email = "info@persistent-security.net" }
 ]
 readme = "README.md"
 license = { file = "LICENSE" }
