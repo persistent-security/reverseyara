@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Copyright (c) Persistent Security Industries 2025
 # https://www.persistent-security.net
 # This program is licensed under the GNU General Public License (GPL).
