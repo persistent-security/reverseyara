@@ -2,6 +2,8 @@
 
 reverseyara.py is a proof-of-concept tool that extracts signatures from YARA rules and generates output files based on the output filename's extension, or sends the signatures over a network connection. It uses the [plyara](https://github.com/plyara/plyara) parser to process YARA rule files and the [rich](https://github.com/Textualize/rich) library for user-friendly output.
 
+Here's a blog about it: <https://www.persistent-security.net/post/using-yara-for-adversary-simulation>
+
 ## Important Notice
 
 This software is a proof-of-concept and is not a complete YARA parser/generator. It has limited capabilities and may not honor all YARA rule conditions accurately. Use this tool for experimental purposes only.
